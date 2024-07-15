@@ -13,7 +13,7 @@ app.get("/", (req, res) => {
         );
     } else {
         res.send(
-            "<head><link flag='Don't be oversmart'><title>War Games</title></head><h1>You are good in browsing but not in linux!</h1>"
+            "<head><link flag='Don't be oversmart'><title>War Games</title></head><h1>You are good in browsing but not in linux! youn should try_this_one </h1>"
         );
     }
 });
