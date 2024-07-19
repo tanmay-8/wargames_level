@@ -9,7 +9,7 @@ app.use(cors());
 app.get("/", (req, res) => {
     if (req.headers["user-agent"].includes("curl")) {
         res.send(
-            "<head><link flag='go to api/34334'><title>War Games</title></head><h1>Code is not here but work is half done !</h1>"
+            "<head><link flag='password is LD5-20-24 remember this'><title>War Games</title></head><h1>Code is not here but work is half done !</h1>"
         );
     } else {
         res.send(
@@ -18,7 +18,7 @@ app.get("/", (req, res) => {
     }
 });
 
-app.get("/api/34334", (req, res) => {
+app.get("/api/destination/2024", (req, res) => {
     if (req.headers["user-agent"].includes("curl")) {
         res.send(
             "<head><link flag='You are smart but you cannot GET me'><title>War Games</title></head><h1>You ar near, show some inspecting skills</h1>"
@@ -30,7 +30,7 @@ app.get("/api/34334", (req, res) => {
     }
 });
 
-app.post("/api/34334", (req, res) => {
+app.post("/api/destination/20244", (req, res) => {
     if (req.headers["user-agent"].includes("curl")) {
         res.send("FLAG : WLUG{TANS8759}");
     }else{
