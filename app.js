@@ -32,7 +32,8 @@ app.get("/api/destination/2024", (req, res) => {
 
 app.post("/api/destination/2024", (req, res) => {
     if (req.headers["user-agent"].includes("curl")) {
-        res.send("FLAG : WLUG{TANS8759}");
+        res.send(`\nFLAG : WLUG{TANS8759}\n
+            The password for the next level is Alpine\n\n`);
     } else {
         res.send("Expected better from you");
     }
